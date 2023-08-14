@@ -1,5 +1,3 @@
-# The Clarity Weakness Classification Registry
-
 In an attempt to create an equivalent to the excellent [SWC Registry](https://swcregistry.io) security vulnerabilty classification standard, applicable to the Stacks blockchain and Clarity programming language, the Stacks Foundation has developed the Clarity Weakness Classification Registry. The CWC Registry will categorize any and all weaknesses involving the blockchain or Clarity into a single comprehensive reference document. This allows for faster triaging and analysis, provides an up-to-date resource for vulnerability remediation, a standardized language for discussing security issues, and a way to track and protect against attack trends.
 
 ## The Classification
