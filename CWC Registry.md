@@ -19,10 +19,10 @@ In an attempt to create an equivalent to the excellent [SWC Registry](https://sw
 | Chain Splits & Reorgs | Accepting blocks under flawed conditions | Critical | |
 | | Creation of a new chain | Critical | |
 | | Double spending | Critical | |
-| Code Cleanliness & Readability | Best practice issues | Minor | |
-| | Dead code | Minor | |
-| | Code inefficiency | Minor | |
-| | Comments | Minor | |
+| Code Cleanliness & Readability | Best practice issues | Low | |
+| | Dead code | Low | |
+| | Code inefficiency | Low | |
+| | Comments | Low | |
 | Denial of Service | Error Handling | High | |
 | | Logic | High | |
 | Frozen Assets | Transaction issues | Critical | |
@@ -41,7 +41,7 @@ In an attempt to create an equivalent to the excellent [SWC Registry](https://sw
 | | Randomness and cryptographic security | Medium | |
 | Remote Code Execution | Malicious contract usage | Critical | |
 | | Malicious owners and operators | Critical | |
-| Social Engineering | Name squatting, copying, and duplication | Minor | |
+| Social Engineering | Name squatting, copying, and duplication | Low | |
 | | Phishing and user manipulation | Medium | |
 
 
