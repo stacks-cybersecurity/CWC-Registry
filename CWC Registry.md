@@ -1,6 +1,6 @@
 # The Clarity Weakness Classification Registry
 
-In an attempt to tailor the excellent SWC Registry security vulnerabilty classification standard[1] to the Stacks blockchain and Clarity programming language, the Stacks Foundation has developed the CWC Registry. The CWC Registry is an attempt to categorize any and all weaknesses involving Stacks or Clarity into a single comprehensive reference document. This allows for faster triaging and analysis, an up-to-date resource for remediation, a standardized language for discussing vulnerabilities, and a way to track and protect against attack trends.
+In an attempt to create an equivalent to the excellent [SWC Registry](https://swcregistry.io) security vulnerabilty classification standard, applicable to the Stacks blockchain and Clarity programming language, the Stacks Foundation has developed the Clarity Weakness Classification Registry. The CWC Registry will categorize any and all weaknesses involving the blockchain or Clarity into a single comprehensive reference document. This allows for faster triaging and analysis, provides an up-to-date resource for vulnerability remediation, a standardized language for discussing security issues, and a way to track and protect against attack trends.
 
 ## The Classification
 
@@ -8,9 +8,9 @@ In an attempt to tailor the excellent SWC Registry security vulnerabilty classif
 | --- | --- |
 | 51% Attack | Control of mining power via paused RBF calls | 
 | Authentication & Authorization | Use of tx.sender |
-| | Unlimited borrower pool access |
-| | Unrestricted owner mint and burn |
-| Business Logic Flaws & Bad Coding Practices | Wrong token or contract used | 
+| | Pool or app access issues |
+| | Unrestricted owner privileges  |
+| Business Logic Flaws & Bad Coding Practices | Wrong token, address, or contract used | 
 | | Use or activation of inactive contract |
 | | Lack or failed implementation of enforced governance mechanisms |
 | | Deposit, transfer, or withdraw issues | 
@@ -19,10 +19,10 @@ In an attempt to tailor the excellent SWC Registry security vulnerabilty classif
 | Chain Splits & Reorgs | Accepting blocks under flawed conditions |
 | | Creation of a new chain | 
 | | Double spending | 
-| Code Cleanliness & Readability | Dead code |
-| | Best practice issues | 
+| Code Cleanliness & Readability | Best practice issues |
+| | Dead code | 
 | | Code inefficiency |
-| | Commenting | 
+| | Comments | 
 | Denial of Service | Error Handling | 
 | | Logic |
 | Frozen Assets | Transaction issues | 
@@ -33,6 +33,7 @@ In an attempt to tailor the excellent SWC Registry security vulnerabilty classif
 | | Fees |
 | | Race conditions | 
 | | Math and logic errors leading to funds theft |
+| | Authentication and authorization issues leading to funds theft |
 | Gas Optimization | Overpaying gas | 
 | | Underpaying gas | 
 | Math Errors | Rounding, fractions, and decimals | 
@@ -40,14 +41,10 @@ In an attempt to tailor the excellent SWC Registry security vulnerabilty classif
 | | Randomness and cryptographic security |
 | Remote Code Execution | Malicious contract usage |
 | | Malicious owners and operators | 
-| Social Engineering | Namesquatting, copying, and duplication |
+| Social Engineering | Name squatting, copying, and duplication |
 | | Phishing and user manipulation |
 
 
 ### Remediation Guidelines
 
 *WIP.*
-
---------
-
-[1] https://swcregistry.io
