@@ -26,4 +26,4 @@ CWC-012	| Math Errors
 
 CWC-013	| Remote Code Execution
 
-CWC-014	| Social Engineering
+CWC-014	| Social Engineering & User-Based Attacks
