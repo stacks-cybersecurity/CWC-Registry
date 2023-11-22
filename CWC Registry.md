@@ -1,4 +1,4 @@
-# CWC Nunber | Name
+# CWC Number | Name
 
 CWC-001 | 51% Attacks & Network Takeovers
 
